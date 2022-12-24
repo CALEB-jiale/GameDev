@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0000BB9295767FB00D24E1E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0000BB8295767FB00D24E1E /* main.cpp */; };
+		A0000BC12957681C00D24E1E /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0000BBF2957681C00D24E1E /* Game.cpp */; };
+		A0000BC42957684300D24E1E /* Component.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0000BC22957684300D24E1E /* Component.cpp */; };
+		A0000BC72957686200D24E1E /* Actor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0000BC52957686200D24E1E /* Actor.cpp */; };
+		A0000BCA2957689F00D24E1E /* Math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0000BC82957689F00D24E1E /* Math.cpp */; };
+		A0000BCD295768CF00D24E1E /* SpriteComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0000BCB295768CF00D24E1E /* SpriteComponent.cpp */; };
+		A0000BD0295768F300D24E1E /* AnimSpriteComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0000BCE295768F200D24E1E /* AnimSpriteComponent.cpp */; };
+		A0000BD32957691700D24E1E /* BGSpriteComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0000BD12957691700D24E1E /* BGSpriteComponent.cpp */; };
+		A0000BD62957693B00D24E1E /* Ship.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0000BD42957693B00D24E1E /* Ship.cpp */; };
+		A0000BDA2957696C00D24E1E /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0000BD82957696C00D24E1E /* SDL2.framework */; };
+		A0000BDB2957696C00D24E1E /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0000BD92957696C00D24E1E /* SDL2_image.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A0000BB3295767FB00D24E1E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A0000BB5295767FB00D24E1E /* Sprite */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Sprite; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0000BB8295767FB00D24E1E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A0000BBF2957681C00D24E1E /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		A0000BC02957681C00D24E1E /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		A0000BC22957684300D24E1E /* Component.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Component.cpp; sourceTree = "<group>"; };
+		A0000BC32957684300D24E1E /* Component.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Component.hpp; sourceTree = "<group>"; };
+		A0000BC52957686200D24E1E /* Actor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Actor.cpp; sourceTree = "<group>"; };
+		A0000BC62957686200D24E1E /* Actor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Actor.hpp; sourceTree = "<group>"; };
+		A0000BC82957689F00D24E1E /* Math.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Math.cpp; sourceTree = "<group>"; };
+		A0000BC92957689F00D24E1E /* Math.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Math.hpp; sourceTree = "<group>"; };
+		A0000BCB295768CF00D24E1E /* SpriteComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpriteComponent.cpp; sourceTree = "<group>"; };
+		A0000BCC295768CF00D24E1E /* SpriteComponent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SpriteComponent.hpp; sourceTree = "<group>"; };
+		A0000BCE295768F200D24E1E /* AnimSpriteComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AnimSpriteComponent.cpp; sourceTree = "<group>"; };
+		A0000BCF295768F300D24E1E /* AnimSpriteComponent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AnimSpriteComponent.hpp; sourceTree = "<group>"; };
+		A0000BD12957691700D24E1E /* BGSpriteComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BGSpriteComponent.cpp; sourceTree = "<group>"; };
+		A0000BD22957691700D24E1E /* BGSpriteComponent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BGSpriteComponent.hpp; sourceTree = "<group>"; };
+		A0000BD42957693B00D24E1E /* Ship.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ship.cpp; sourceTree = "<group>"; };
+		A0000BD52957693B00D24E1E /* Ship.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Ship.hpp; sourceTree = "<group>"; };
+		A0000BD82957696C00D24E1E /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		A0000BD92957696C00D24E1E /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../../../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0000BB2295767FB00D24E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0000BDA2957696C00D24E1E /* SDL2.framework in Frameworks */,
+				A0000BDB2957696C00D24E1E /* SDL2_image.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0000BAC295767FB00D24E1E = {
+			isa = PBXGroup;
+			children = (
+				A0000BB7295767FB00D24E1E /* Sprite */,
+				A0000BB6295767FB00D24E1E /* Products */,
+				A0000BD72957696B00D24E1E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A0000BB6295767FB00D24E1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0000BB5295767FB00D24E1E /* Sprite */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0000BB7295767FB00D24E1E /* Sprite */ = {
+			isa = PBXGroup;
+			children = (
+				A0000BB8295767FB00D24E1E /* main.cpp */,
+				A0000BBF2957681C00D24E1E /* Game.cpp */,
+				A0000BC02957681C00D24E1E /* Game.hpp */,
+				A0000BC22957684300D24E1E /* Component.cpp */,
+				A0000BC32957684300D24E1E /* Component.hpp */,
+				A0000BC52957686200D24E1E /* Actor.cpp */,
+				A0000BC62957686200D24E1E /* Actor.hpp */,
+				A0000BC82957689F00D24E1E /* Math.cpp */,
+				A0000BC92957689F00D24E1E /* Math.hpp */,
+				A0000BCB295768CF00D24E1E /* SpriteComponent.cpp */,
+				A0000BCC295768CF00D24E1E /* SpriteComponent.hpp */,
+				A0000BCE295768F200D24E1E /* AnimSpriteComponent.cpp */,
+				A0000BCF295768F300D24E1E /* AnimSpriteComponent.hpp */,
+				A0000BD12957691700D24E1E /* BGSpriteComponent.cpp */,
+				A0000BD22957691700D24E1E /* BGSpriteComponent.hpp */,
+				A0000BD42957693B00D24E1E /* Ship.cpp */,
+				A0000BD52957693B00D24E1E /* Ship.hpp */,
+			);
+			path = Sprite;
+			sourceTree = "<group>";
+		};
+		A0000BD72957696B00D24E1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0000BD92957696C00D24E1E /* SDL2_image.framework */,
+				A0000BD82957696C00D24E1E /* SDL2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0000BB4295767FB00D24E1E /* Sprite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0000BBC295767FB00D24E1E /* Build configuration list for PBXNativeTarget "Sprite" */;
+			buildPhases = (
+				A0000BB1295767FB00D24E1E /* Sources */,
+				A0000BB2295767FB00D24E1E /* Frameworks */,
+				A0000BB3295767FB00D24E1E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sprite;
+			productName = Sprite;
+			productReference = A0000BB5295767FB00D24E1E /* Sprite */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0000BAD295767FB00D24E1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A0000BB4295767FB00D24E1E = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = A0000BB0295767FB00D24E1E /* Build configuration list for PBXProject "Sprite" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0000BAC295767FB00D24E1E;
+			productRefGroup = A0000BB6295767FB00D24E1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0000BB4295767FB00D24E1E /* Sprite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0000BB1295767FB00D24E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0000BD62957693B00D24E1E /* Ship.cpp in Sources */,
+				A0000BB9295767FB00D24E1E /* main.cpp in Sources */,
+				A0000BD32957691700D24E1E /* BGSpriteComponent.cpp in Sources */,
+				A0000BC42957684300D24E1E /* Component.cpp in Sources */,
+				A0000BD0295768F300D24E1E /* AnimSpriteComponent.cpp in Sources */,
+				A0000BCD295768CF00D24E1E /* SpriteComponent.cpp in Sources */,
+				A0000BC12957681C00D24E1E /* Game.cpp in Sources */,
+				A0000BC72957686200D24E1E /* Actor.cpp in Sources */,
+				A0000BCA2957689F00D24E1E /* Math.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A0000BBA295767FB00D24E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A0000BBB295767FB00D24E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A0000BBD295767FB00D24E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0000BBE295767FB00D24E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0000BB0295767FB00D24E1E /* Build configuration list for PBXProject "Sprite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0000BBA295767FB00D24E1E /* Debug */,
+				A0000BBB295767FB00D24E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0000BBC295767FB00D24E1E /* Build configuration list for PBXNativeTarget "Sprite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0000BBD295767FB00D24E1E /* Debug */,
+				A0000BBE295767FB00D24E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0000BAD295767FB00D24E1E /* Project object */;
+}
