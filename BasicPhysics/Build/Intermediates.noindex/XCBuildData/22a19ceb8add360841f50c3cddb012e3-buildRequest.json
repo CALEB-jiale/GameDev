@@ -1,0 +1,56 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "91a89766b9bec49efc33c8e54a6dcdd09ed975ad18b65e1894e3e870b90d07a2"
+    }
+  ],
+  "containerPath" : "/Users/lucas/Documents/School/计算机基础/C++/练习程序/game_dev/BasicPhysics/BasicPhysics.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.0",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/lucas/Documents/School/计算机基础/C++/练习程序/game_dev/BasicPhysics/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/lucas/Documents/School/计算机基础/C++/练习程序/game_dev/BasicPhysics/Build/Products",
+      "derivedDataPath" : "/Users/lucas/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/lucas/Library/Developer/Xcode/DerivedData/BasicPhysics-ecwlhhxhljhqyvcksxqzdyuzpeuk/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/lucas/Library/Developer/Xcode/DerivedData/BasicPhysics-ecwlhhxhljhqyvcksxqzdyuzpeuk/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/lucas/Documents/School/计算机基础/C++/练习程序/game_dev/BasicPhysics/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

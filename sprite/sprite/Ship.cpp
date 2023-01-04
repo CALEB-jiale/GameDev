@@ -16,10 +16,10 @@ Ship::Ship(Game* game) : Actor(game) {
     // 创建一个动画精灵组件
     AnimSpriteComponent* asc = new AnimSpriteComponent(this);
     std::vector<SDL_Texture*> anims = {
-        game->GetTexture("/Users/lucas/Documents/School/计算机基础/C++/练习程序/game_dev/Sprite/Sprite/Assets/Ship01.png"),
-        game->GetTexture("/Users/lucas/Documents/School/计算机基础/C++/练习程序/game_dev/Sprite/Sprite/Assets/Ship01.png"),
-        game->GetTexture("/Users/lucas/Documents/School/计算机基础/C++/练习程序/game_dev/Sprite/Sprite/Assets/Ship01.png"),
-        game->GetTexture("/Users/lucas/Documents/School/计算机基础/C++/练习程序/game_dev/Sprite/Sprite/Assets/Ship01.png"),
+        game->GetTexture("Assets/Ship01.png"),
+        game->GetTexture("Assets/Ship01.png"),
+        game->GetTexture("Assets/Ship01.png"),
+        game->GetTexture("Assets/Ship01.png"),
     };
     asc->SetAnimTextures(anims);
 }

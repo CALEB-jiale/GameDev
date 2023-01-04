@@ -36,7 +36,7 @@ void SpriteComponent::Draw(SDL_Renderer* renderer) {
                          mTexture,      // the source texture
                          nullptr,       // the source SDL_Rect structure or NULL for the entire texture
                          &r,            // the destination SDL_Rect structure or NULL for the entire rendering target
-                         -Math::ToDegrees(mOwner->GetRotation()),   // 旋转角度，负号表示逆时针方向
+                         -Math::ToDegrees(mOwner->GetRotation()),   // 旋转角度，负号表示逆时针方向，计算机中 y 轴向下
                          nullptr,       // 旋转中心，若为 NULL 则绕中心旋转
                          SDL_FLIP_NONE); // 弹跳类型
     }

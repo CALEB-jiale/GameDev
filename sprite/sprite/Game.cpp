@@ -214,8 +214,8 @@ void Game::LoadData() {
     BGSpriteComponent* bg = new BGSpriteComponent(temp, 10);
     bg->SetScreenSize(mWindowSize);
     std::vector<SDL_Texture*> bgtexs = {
-        GetTexture("/Users/lucas/Documents/School/计算机基础/C++/练习程序/game_dev/Sprite/Sprite/Assets/Farback01.png"),
-        GetTexture("/Users/lucas/Documents/School/计算机基础/C++/练习程序/game_dev/Sprite/Sprite/Assets/Farback02.png")
+        GetTexture("Assets/Farback01.png"),
+        GetTexture("Assets/Farback02.png")
     };
     bg->SetBGTextures(bgtexs);
     bg->SetScrollSpeed(-100.0f);
@@ -224,8 +224,8 @@ void Game::LoadData() {
     bg = new BGSpriteComponent(temp, 50);
     bg->SetScreenSize(mWindowSize);
     bgtexs = {
-        GetTexture("/Users/lucas/Documents/School/计算机基础/C++/练习程序/game_dev/Sprite/Sprite/Assets/Stars.png"),
-        GetTexture("/Users/lucas/Documents/School/计算机基础/C++/练习程序/game_dev/Sprite/Sprite/Assets/Stars.png")
+        GetTexture("Assets/Stars.png"),
+        GetTexture("Assets/Stars.png")
     };
     bg->SetBGTextures(bgtexs);
     bg->SetScrollSpeed(-200.0f);
